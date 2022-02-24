@@ -1,0 +1,1 @@
+namespace Borrowing { open Microsoft.Quantum.Intrinsic; open Microsoft.Quantum.Canon; @EntryPoint() operation Main(): Unit { use qs = Qubit[6] { Mixed1(qs[0], qs[1..5]); ResetAll(qs); } } }

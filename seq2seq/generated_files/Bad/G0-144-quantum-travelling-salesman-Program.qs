@@ -1,0 +1,1 @@
+namespace TravellingSalesman { open Microsoft.Quantum.Canon; open Microsoft.Quantum.Intrinsic; @EntryPoint() operation SayHello() : Unit { let costMatrix = [("Canakkale", 0, [0, 3, 1, 0, 0] ), ("Hagen", 13, 2, 0])]; let (label, index, costArray) = costMatrix[0]; Message(label); } } 

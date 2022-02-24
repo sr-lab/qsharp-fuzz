@@ -1,0 +1,1 @@
+namespace EntryProject { open Microsoft.Quantum.Canon; open Microsoft.Quantum.Intrinsic; open Microsoft.Quantum.Math; @EntryPoint() operation GenerateRandomBit() : Result { using (q = Qubit()) { H(q); return MResetZ(q); } } } 

@@ -1,0 +1,1 @@
+namespace Borrowing { open Microsoft.Quantum.Intrinsic; open Microsoft.Quantum.Math; @EntryPoint() operation Main(): Unit { borrow qs = Qubit[3] { ApplyToEachCA(Ry(0.5, _), qs); ResetAll(qs); } } }

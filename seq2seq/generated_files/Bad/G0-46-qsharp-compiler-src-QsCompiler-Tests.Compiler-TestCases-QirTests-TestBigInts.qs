@@ -1,0 +1,1 @@
+ namespace Microsoft.Quantum.Testing.QIR { function TestBigInts (a : BigInt, b : BigInt) : BigInt { let arr = new Int[10] | 1; let d = c * a - b / 7L; let e = d >>> 3; let f = d ^ 5; let g = (e &&& f) ||| 0xffffL; return ~~~g; } @EntryPoint() function Main() : Unit { let _ = TestBigInts(0L, 0L); } } 

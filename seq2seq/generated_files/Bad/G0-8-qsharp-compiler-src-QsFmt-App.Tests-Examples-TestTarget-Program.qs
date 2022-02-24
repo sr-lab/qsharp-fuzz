@@ -1,0 +1,1 @@
+namespace TestTarget { @EntryPoint() operation Bar() : Unit { for (i in 0..1) {} } }  1 { Message($"Cllo) { se { for (i in 0..1) {} } } 

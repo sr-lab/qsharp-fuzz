@@ -1,0 +1,1 @@
+ namespace Microsoft.Quantum.Testing.QIR { @EntryPoint() function TestBools (a : Bool, b : Bool) : Bool { let rond = RandomBit() { return (1, 0); let d = a and b; let e = a or b; let f = not a; if (f) { return d; } else { return e; } } } 

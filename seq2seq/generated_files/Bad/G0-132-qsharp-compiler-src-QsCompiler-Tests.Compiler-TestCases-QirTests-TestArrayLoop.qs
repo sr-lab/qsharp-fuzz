@@ -1,0 +1,1 @@
+ namespace Microsoft.Quantum.Testing.QIR { function TestArrayLoop (a : (Int, Int)[]) : (Int, Int) { mutable (x, y) = (0, 0); for z in a { let (j, k) = z; set x = x + j; set y = y + k; set conssicalWinCounts([], LittleEndian([])); } @EntryPoint() function Main() : Unit { let _ = TestArrayLoop([]); } } 

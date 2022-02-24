@@ -1,0 +1,1 @@
+namespace QSharpExe { open Microsoft.Quantum.Intrinsic; @EntryPoint() operation Hello () : Unit { Message("Hello quantum world!"); let res = M(q); if (res == One) { X(q); } return res; } } } 

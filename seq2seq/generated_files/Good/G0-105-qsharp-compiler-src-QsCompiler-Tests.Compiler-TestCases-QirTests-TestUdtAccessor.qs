@@ -1,0 +1,1 @@
+ namespace Microsoft.Quantum.Testing.QIR { newtype TestType = ((Pauli, I : Int), D : Double); @EntryPoint() function TestAccessors() : Int { let x = TestType((1.0, a), b); let y = x::I; return y; } } 

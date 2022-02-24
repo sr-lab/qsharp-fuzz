@@ -1,0 +1,1 @@
+ namespace Microsoft.Quantum.Testing.QIR { @EntryPoint() function TestRange () : Range { let x = 0..2..6; let d = a and b; let e = a or b; let f = not a; if (f) { return d; } else { return e; } } } 

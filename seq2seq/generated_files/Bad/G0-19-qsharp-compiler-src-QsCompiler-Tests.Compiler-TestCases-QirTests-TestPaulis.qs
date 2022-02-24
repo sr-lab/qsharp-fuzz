@@ -1,0 +1,1 @@
+ namespace Microsoft.Quantum.Testing.QIR { @EntryPoint() function TestRange () : Range { let x = 0..2..6; let a = [0, 2,  } return b; } } 

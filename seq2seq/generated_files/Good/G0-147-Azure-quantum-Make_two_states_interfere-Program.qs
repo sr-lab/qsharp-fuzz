@@ -1,0 +1,1 @@
+ namespace ExploringInterference { open Microsoft.Quantum.Canon; open Microsoft.Quantum.Intrinsic; open Microsoft.Quantum.Diagnostics; open Microsoft.Quantum.Measurement; @EntryPoint() operation TestEntanglement2() : Result[] { use qubits = Qubit[2]; X(q); H(q); DumpMachine(); Reset(q); } }

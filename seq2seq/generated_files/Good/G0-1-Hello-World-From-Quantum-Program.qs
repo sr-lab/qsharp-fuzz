@@ -1,0 +1,1 @@
+namespace HelloWorld { open Microsoft.Quantum.Canon; open Microsoft.Quantum.Convert; @EntryPoint() operation SayHello() : Unit { Message("Hello world from quantum!"); } } 

@@ -1,0 +1,1 @@
+namespace Quantum.QSharpConsoleApp { open Microsoft.Quantum.Convert; open Microsoft.Quantum.Math; open Microsoft.Quantum.Measurement; open Microsoft.Quantum.Math; open Microsoft.Quantum.Intrinsic; @EntryPoint() operation MeasureOneQubit() : Result { using (qubit = Qubit()) { H(qubit); let result = M(qubit); if (result == One) { X(qubit); } return result; } } } 

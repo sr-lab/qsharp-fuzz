@@ -1,0 +1,1 @@
+namespace SingleFunction { @EntryPoint() function DoNothing(): Unit {} } namespace Microsoft.Quantum.Testing.EntryPnit {} }

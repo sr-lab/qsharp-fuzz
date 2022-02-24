@@ -1,0 +1,1 @@
+ namespace Microsoft.Quantum.Testing.QIR { open Microsoft.Quantum.Intrinsic; @EntryPoint() operation Hello () : Unit { Message("Hello quantum world!"); use q = Qubit() { if (M(qs[1]) == One) { X(q); } if (M(qs[0]) == M(q)) { fail("Unexpected measurement result"); } } } } }

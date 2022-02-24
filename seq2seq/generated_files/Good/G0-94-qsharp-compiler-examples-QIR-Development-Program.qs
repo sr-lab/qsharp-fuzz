@@ -1,0 +1,1 @@
+namespace Microsoft.Quantum.Qir.Development { open Microsoft.Quantum.Arrays; open Microsoft.Quantum.Canon; open Microsoft.Quantum.Diagnostics; open Microsoft.Quantum.Measurement; open Microsoft.Quantum.Math; @EntryPoint() operation RunExample() : String { return "Executed successfully!"; } } 

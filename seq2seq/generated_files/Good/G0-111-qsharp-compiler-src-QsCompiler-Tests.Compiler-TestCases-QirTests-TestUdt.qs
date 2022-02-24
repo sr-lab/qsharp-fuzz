@@ -1,0 +1,1 @@
+ namespace Microsoft.Quantum.Testing.QIR { internal newtype Foo = Unit; internal newtype Bar = Int; newtype TestType = ((Pauli, I : Int), D : Double); @EntryPoint() operation TestUdtArgument () : (Int, (Pauli, Int)) { let udt1 = Build(TestType1); let _ = [Foo()]; let _ = [Bar(1)]; } } 

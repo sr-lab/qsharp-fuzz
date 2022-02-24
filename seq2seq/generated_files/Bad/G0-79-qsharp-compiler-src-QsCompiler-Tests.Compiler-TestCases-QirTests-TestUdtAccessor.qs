@@ -1,0 +1,1 @@
+ namespace Microsoft.Quantum.Testing.QIR { newtype TestType = ((Pauli, I : Int), D : Double); @EntryPoint() function TestAccessorsCounts() : (Int, (Pauli, Int)[]); let y = x::I; return y; } } 

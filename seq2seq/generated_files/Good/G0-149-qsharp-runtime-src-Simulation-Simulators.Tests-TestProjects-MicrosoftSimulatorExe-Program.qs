@@ -1,0 +1,1 @@
+namespace Quantum.MicrosoftSimulatorExe { open Microsoft.Quantum.Arrays; open Microsoft.Quantum.Canon; open Microsoft.Quantum.Intrinsic; open Microsoft.Quantum.Measurement; @EntryPoint() operation HelloQ () : Unit { use qubits = Qubit[10] { ApplyToEachA(Ry(0.5, _), qs); let resuls = ForEach(MResetZ, qubits); } } } 

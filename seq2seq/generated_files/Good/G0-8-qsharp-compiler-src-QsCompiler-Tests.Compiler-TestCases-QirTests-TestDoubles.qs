@@ -1,0 +1,1 @@
+ namespace Microsoft.Quantum.Testing.QIR { @EntryPoint() function TestRange () : Range { let x = 0..2..6; let b = a * 1.235 + x ^ y; let c = a >= b ? a - b | a + b; return a * b * c; } } 

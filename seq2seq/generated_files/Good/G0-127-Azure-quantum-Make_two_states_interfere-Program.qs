@@ -1,0 +1,1 @@
+ namespace ExploringInterference { open Microsoft.Quantum.Canon; open Microsoft.Quantum.Intrinsic; open Microsoft.Quantum.Diagnostics; open Microsoft.Quantum.Measurement; @EntryPoint() operation SayHello() : Unit { Message("Hello quantum world!"); X(q); H(q); DumpMachine(); Reset(q); } }

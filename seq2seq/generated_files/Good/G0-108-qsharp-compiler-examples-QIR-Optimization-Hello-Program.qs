@@ -1,0 +1,1 @@
+namespace Hello { open Microsoft.Quantum.Canon; open Microsoft.Quantum.Intrinsic; @EntryPoint() operation HelloQ() : Unit { Message("Hello quantum world!"); } }  (q intryPoint) { set costMatrix = [("Canakkale", 0, [0, 3, 1, 0, 0] ), ("Hagen", 13, 2, 0])];} 

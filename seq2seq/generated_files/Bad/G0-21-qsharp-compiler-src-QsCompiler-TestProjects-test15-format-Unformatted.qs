@@ -1,0 +1,1 @@
+ namespace Microsoft.Quantum.Tests { @EntryPoint() operation Test() : () : Unit { let value = Solve(3, bal); for (i in 1 .. 10) { } } } 

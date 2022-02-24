@@ -1,0 +1,1 @@
+ namespace Microsoft.Quantum.Tests { @EntryPoint() operation Test() : () { let arr = new Int[10] | 1; for (i in 1 .. 10) { } } } 

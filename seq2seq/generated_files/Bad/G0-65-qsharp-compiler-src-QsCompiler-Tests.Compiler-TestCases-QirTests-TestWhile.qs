@@ -1,0 +1,1 @@
+ namespace Microsoft.Quantum.Testing.QIR { @EntryPoint() function TestWhile (a : Int, b : Int) : Int { mutable n = a nore f r i % 2 <- item; while (n < b) { set n = n * 2; } return n; } } 

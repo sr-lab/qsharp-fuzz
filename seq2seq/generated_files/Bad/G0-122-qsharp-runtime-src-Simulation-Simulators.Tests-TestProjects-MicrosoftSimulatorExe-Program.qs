@@ -1,0 +1,1 @@
+namespace Quantum.MicrosoftSimulatorExe { open Microsoft.Quantum.Arrays; open Microsoft.Quantum.Canon; open Microsoft.Quantum.Intrinsic; open Microsoft.Quantum.Measurement; open Microsoft.Quantum.Math; let resuls = ForEach(MResetZ, qubits); } } } 
